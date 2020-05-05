@@ -11,16 +11,16 @@
     <header class="header">
       <h1>Lista de tareas</h1>
     </header>
-    <main>
+    <main class="main-container">
       <form id="formulario" class="form">
         <textarea class="js-task-content textarea" placeholder="Escribe tu tarea"></textarea>
         <input type="button" class="button" value="Añadir" />
       </form>
+      <aside class="task-container">
+        <h2 class="task-title">Tareas</h2>
+        <ul class="js-task-list task-list"></ul>
+      </aside>
     </main>
-    <aside class="task-container">
-      <h2 class="task-title">Tareas</h2>
-      <ul class="js-task-list task-list"></ul>
-    </aside>
     <script src="assets/js/app.js"></script>
   </body>
 </html>
